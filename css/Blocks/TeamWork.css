@@ -1,0 +1,48 @@
+
+.TeamWork{
+    padding-top: 144px;
+}
+.TeamWork__inner{
+    display: flex;
+    gap: 96px;
+}
+.TeamWork__block{
+    margin-top: 130px;
+}
+.TeamWork__block-desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #919299;
+    margin-top: 24px;
+}
+.TeamWork__block-link{
+    padding: 18px 22px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 42px;
+    color: #fff;
+    background-color: #F78CB6;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all .3s ease;
+}
+.TeamWork__block-link:hover{
+    background-color: #56597A;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.TeamWork__block-link::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 15px;
+    top: 15px;
+    border: 2px solid #fff;
+}
+.TeamWork__block-arrow{
+    margin-left: 15px;
+}

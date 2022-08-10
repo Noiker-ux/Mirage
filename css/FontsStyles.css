@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "CircularStd-Medium";
+    src: url("../fonts/CircularStd-Medium.woff");
+}
+
+@font-face {
+    font-family: "CircularStd-Bold";
+    src: url("../fonts/CircularStd-Bold.woff") format('woff');
+}

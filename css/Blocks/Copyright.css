@@ -1,0 +1,27 @@
+.copyright{
+    background-color: #F78CB6;
+    color: #FFF1F9;
+    min-width: 54px;
+    font-family: fangsong;
+    padding: 10px 0;
+}
+.copyright__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.language{
+    position: relative;
+}
+.language__trio{
+    font-size: 10px;
+}
+
+.language__trio:hover{
+    cursor: pointer;
+}
+
+.language::before{
+    content: url(../../img/Word.svg);
+    position: absolute;
+    left: -35px;
+}

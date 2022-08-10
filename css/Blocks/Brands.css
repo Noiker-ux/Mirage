@@ -1,0 +1,13 @@
+
+.brands{
+    margin-top: 110px;
+}
+
+.brands__inner{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.brands__slider-img + .brands__slider-img{
+    margin-left: 90px;
+}

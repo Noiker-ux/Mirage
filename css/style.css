@@ -1,0 +1,16 @@
+@import url(./FontsStyles.css);
+@import url(./GlobalStyles.css);
+
+
+@import url(./Blocks/Header.css);
+@import url(./Blocks/Preview.css);
+@import url(./Blocks/Services.css);
+@import url(./Blocks/Things.css);
+@import url(./Blocks/TeamWork.css);
+@import url(./Blocks/Testimonial.css);
+@import url(./Blocks/Brands.css);
+@import url(./Blocks/Subscribe.css);
+@import url(./Blocks/Footer.css);
+@import url(./Blocks/Copyright.css);
+
+@import url(./Media.css);

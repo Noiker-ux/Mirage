@@ -1,0 +1,57 @@
+@import url(./FontsStyles.css);
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: "CircularStd-Medium";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.subtitle{
+    font-family: 'CircularStd-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+}
+
+.title{
+    font-family: 'CircularStd-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+    color: #56597A;
+}

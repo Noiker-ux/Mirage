@@ -1,0 +1,51 @@
+
+.subscribe{
+    margin-top: 180px;
+    text-align: center;
+}
+.subscribe__desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #919299;
+    max-width: 600px;
+    margin: 6px auto;
+}
+.sub__form{
+    position: relative;
+}
+
+.subinp{
+    background: #fafafa;
+    border: 1px solid #919299;
+    border-radius: 4px;
+    width: 700px;
+    height: 52px;
+}
+.subscribe__img{
+    position: absolute;
+    top: -80px;
+    left: -135px;
+}
+.subinp{
+    margin-top: 35px;
+    outline: none;
+}
+.subbtn{
+    padding: 14px 22px;
+    display: inline-block;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 42px;
+    color: #fff;
+    background-color: #F78CB6;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.subbtn:hover{
+    background-color: #56597A;
+    cursor: pointer;
+}
