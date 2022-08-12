@@ -25,3 +25,9 @@
     position: absolute;
     left: -35px;
 }
+.change-lang{
+    background-color: transparent;
+    border: none;
+    color: #56597A;
+    cursor: pointer;
+}
